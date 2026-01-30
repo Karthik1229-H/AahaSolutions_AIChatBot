@@ -8,6 +8,7 @@ from src.whatsapp import whatsapp_link
 
 
 st.set_page_config(page_title="AAHA AI Assistant", page_icon="🤖")
+st.write("✅ App started successfully")
 
 # ---------------- CSS ----------------
 st.markdown("""
@@ -189,3 +190,4 @@ if menu == "Chat":
 else:
     if admin_login():
         admin_panel()
+
